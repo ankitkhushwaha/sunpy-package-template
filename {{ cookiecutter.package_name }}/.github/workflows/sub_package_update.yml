@@ -6,7 +6,6 @@ permissions:
     pull-requests: write
 
 on:
-  # Allow manual runs through the web UI
   workflow_dispatch:
   schedule:
     #        ┌───────── minute (0 - 59)
